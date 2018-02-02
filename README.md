@@ -27,9 +27,9 @@ WITH CLUSTERING ORDER BY (created asc);
 10. open file cassandra.properties in folder cassandra/
 11. copy all contents of the file into file /opt/confluent/etc/kafka-connect-cassandra/quickstart-cassandra.properties
 12. in terminal, run 
-``
+```
 java -jar /opt/confluent/plugins/streamreactor/libs/kafka-connect-cli-0.5-all.jar create cassandra-sink-orders < /opt/confluent/etc/kafka-connect-cassandra/quickstart-cassandra.properties
-``
+```
 13. and then open new terminal, and type
 
 ``
